@@ -73,15 +73,41 @@ export const Banner = () => {
                       <span className='wrap'>{text}</span>
                     </span>
                   </h1>
-                  <p>
-                    Enthusiastic Software Engineer with over two years of
-                    experience in software development, DevOps, and Data
-                    Engineering. Proficient in Python, Java, React and
-                    JavaScript, with a solid understanding of database
-                    technologies including MySQL and MongoDB. Proven ability to
-                    collaborate with cross-functional teams and contribute to
-                    product roadmaps.
-                  </p>
+                  <div>
+                    <h3>Welcome to My Portfolio</h3>
+                    <p>
+                      Hi, I'm Temi, a passionate and skilled Full Stack
+                      Web Developer. With a strong foundation in both front-end
+                      and back-end development, I specialize in creating
+                      interactive and user-friendly web applications.
+                    </p>
+                    <p>
+                      I have experience working with modern technologies and
+                      frameworks such as HTML5, CSS3, JavaScript, React.js,
+                      Node.js, and Spring. I am also proficient in database
+                      management using SQL and MongoDB.
+                    </p>
+                    <p>
+                      Throughout my career, I have successfully delivered
+                      high-quality projects, collaborating with cross-functional
+                      teams to bring innovative ideas to life. My goal is to
+                      create impactful and efficient web solutions that meet
+                      client needs and provide an exceptional user experience.
+                    </p>
+                    <p>
+                      In addition to my technical skills, I possess excellent
+                      problem-solving abilities, strong attention to detail, and
+                      effective communication skills. I thrive in fast-paced
+                      environments and continuously stay updated with the latest
+                      industry trends and best practices.
+                    </p>
+                    <p>
+                      Take a look at my portfolio below to explore some of the
+                      projects I've worked on. If you have any questions or
+                      would like to discuss potential collaborations, please
+                      feel free to get in touch.
+                    </p>
+                  </div>
 
                   <button onClick={() => console.log("connect")}>
                     Let’s Connect <ArrowRightCircle size={25} />
