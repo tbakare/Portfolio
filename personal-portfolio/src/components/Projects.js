@@ -24,28 +24,14 @@ export const Projects = () => {
     },
     {
       title: "UpVotes",
-      description: "An application that allows Users to suggest new features for a product offering, upvote, and downvote other features suggested by other users for other products",
+      description:
+        "An application that allows Users to suggest new features for a product offering, upvote, and downvote other features suggested by other users for other products",
       imgUrl: projImg3,
     },
-    // {
-    //   title: "Business Startup",
-    //   description: "Design & Development",
-    //   imgUrl: projImg1,
-    // },
-    // {
-    //   title: "Business Startup",
-    //   description: "Design & Development",
-    //   imgUrl: projImg2,
-    // },
-    // {
-    //   title: "Business Startup",
-    //   description: "Design & Development",
-    //   imgUrl: projImg3,
-    // },
   ];
 
   return (
-    <section className='project' id='project'>
+    <section className='project' id='projects'>
       <Container>
         <Row>
           <Col size={12}>

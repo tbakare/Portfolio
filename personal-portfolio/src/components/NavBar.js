@@ -6,6 +6,7 @@ import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
 import { HashLink } from "react-router-hash-link";
 import { BrowserRouter as Router } from "react-router-dom";
+import github from "../assets/img/github.svg";
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -70,6 +71,9 @@ export const NavBar = () => {
             </Nav>
             <span className='navbar-text'>
               <div className='social-icon'>
+                <a href='github.com/tbakare' target='_blank'>
+                  <img src={github} alt='Icon' />
+                </a>
                 <a
                   href='https://www.linkedin.com/in/temiloluwa-bakare/'
                   target='_blank'>
